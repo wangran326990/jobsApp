@@ -77,19 +77,25 @@ h1,h2,h3,h4,h5,h6{
 
 /*jobs list css*/
 
-.jobs a.featured {
+.jobs div.featured {
     border-bottom: 1px solid #F05F40;;
 }
 
-.jobs a {
+.jobs .job-frame {
     border-bottom: 1px solid #F05F40;
     color: #888;
     display: block;
-    padding: 15px 0;
+    position: relative;
+    margin-bottom:15px;
+
+}
+
+.jobs a{
+    color: #888;
+    display: block;
     position: relative;
     width: 100%;
 }
-
 
 .badge.full-time {
     background: #6ecf26;
@@ -210,6 +216,10 @@ h1,h2,h3,h4,h5,h6{
 
 .searchItem{
 	
+}
+
+.small-strong{
+    font-size:15px;
 }
 
 .searchItem:hover{

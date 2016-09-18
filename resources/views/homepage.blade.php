@@ -1,42 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Creative - Start Bootstrap Theme</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <link href="css/jquery.nouislider.css" rel="stylesheet">
-
-	<!-- Theme CSS -->
-	<link href="{{ URL::asset('css/creative.min.css') }}" rel="stylesheet">
-
-	<!-- Customized Theme By Ran-->
-	<link href="{{ URL::asset('css/style.css') }}" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
 
 <body id="page-top">
 
@@ -118,65 +82,80 @@
     		<div class="row">
     			<div class="col-sm-8">		
 					<!-- Job offer 1 -->
-					<a href="#" class="featured applied">
-						<div class="row">
+					<div class="row featured applied job-frame">
+							<a href="#">
 							<div class="col-md-1 hidden-sm hidden-xs">
 								<img src="img/jobsengine/Indeed-Jobs-App.png" alt="" class="img-responsive">
 							</div>
-							<div class="col-lg-5 col-md-5 col-sm-7 col-xs-12 job-title">
-								<h5>Web Designer</h5>
-								<p><strong>Amazon Inc.</strong> Company slogan goes here</p>
+							<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 job-title">
+								<p><strong class="small-strong">Web Designer</strong></p>
+								<p><strong>Amazon Inc.</strong></p>
+								<p>New York City, NY, USA</p>
+								<p class="hidden-md hidden-lg"><strong>8 days ago</strong></p>
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 job-location">
-								<p><strong>New York City, NY, USA</strong></p>
-								<p class="hidden-xs">126.3 miles away</p>
-							</div>
-							<div class="col-lg-2 col-md-2 hidden-sm hidden-xs job-type text-center">
-								<p class="job-salary"><strong>$128,000</strong></p>
-								<p class="badge full-time">Full time</p>
-							</div>
-						</div>
-					</a>
+							<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 job-location">
+								<p class="hidden-xs"><strong class="small-strong">Job Description</strong></p>
+								<p>This person is has excellent communication skills and is experienced with PHP, Javascript, MySQL,and jQuery. We are looking for a programmer proficient in PHP,... </p>
 
-					<a href="#" class="featured applied">
-						<div class="row">
-							<div class="col-md-1 hidden-sm hidden-xs">
-								<img src="img/jobsengine/Indeed-Jobs-App.png" alt="" class="img-responsive">
+								<p class="hidden-md hidden-lg"><button type="button" class="btn btn-primary">APPLY</button></p>
 							</div>
-							<div class="col-lg-5 col-md-5 col-sm-7 col-xs-12 job-title">
-								<h5>Web Designer</h5>
-								<p><strong>Amazon Inc.</strong> Company slogan goes here</p>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 job-location">
-								<p><strong>New York City, NY, USA</strong></p>
-								<p class="hidden-xs">126.3 miles away</p>
-							</div>
-							<div class="col-lg-2 col-md-2 hidden-sm hidden-xs job-type text-center">
-								<p class="job-salary"><strong>$128,000</strong></p>
+							</a>
+							<div class="col-lg-2 col-md-2 job-type text-center hidden-sm hidden-xs">
+								<p class="job-salary"><strong>8 days ago</strong></p>
 								<p class="badge full-time">Full time</p>
+								<button type="button" class="btn btn-primary">APPLY</button>
 							</div>
 						</div>
-					</a>
 
-					<a href="#" class="featured applied">
-						<div class="row">
+					<div class="row featured applied job-frame">
+						<a href="#">
 							<div class="col-md-1 hidden-sm hidden-xs">
 								<img src="img/jobsengine/Indeed-Jobs-App.png" alt="" class="img-responsive">
 							</div>
-							<div class="col-lg-5 col-md-5 col-sm-7 col-xs-12 job-title">
-								<h5>Web Designer</h5>
-								<p><strong>Amazon Inc.</strong> Company slogan goes here</p>
+							<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 job-title">
+								<p><strong class="small-strong">Web Designer</strong></p>
+								<p><strong>Amazon Inc.</strong></p>
+								<p>New York City, NY, USA</p>
+								<p class="hidden-md hidden-lg"><strong>8 days ago</strong></p>
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 job-location">
-								<p><strong>New York City, NY, USA</strong></p>
-								<p class="hidden-xs">126.3 miles away</p>
+							<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 job-location">
+								<p class="hidden-xs"><strong class="small-strong">Job Description</strong></p>
+								<p>This person is has excellent communication skills and is experienced with PHP, Javascript, MySQL,and jQuery. We are looking for a programmer proficient in PHP,... </p>
+
+								<p class="hidden-md hidden-lg"><button type="button" class="btn btn-primary">APPLY</button></p>
 							</div>
-							<div class="col-lg-2 col-md-2 hidden-sm hidden-xs job-type text-center">
-								<p class="job-salary"><strong>$128,000</strong></p>
-								<p class="badge full-time">Full time</p>
-							</div>
+						</a>
+						<div class="col-lg-2 col-md-2 job-type text-center hidden-sm hidden-xs">
+							<p class="job-salary"><strong>8 days ago</strong></p>
+							<p class="badge full-time">Full time</p>
+							<button type="button" class="btn btn-primary">APPLY</button>
 						</div>
-					</a>
+					</div>
+
+					<div class="row featured applied job-frame">
+						<a href="#">
+							<div class="col-md-1 hidden-sm hidden-xs">
+								<img src="img/jobsengine/Indeed-Jobs-App.png" alt="" class="img-responsive">
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 job-title">
+								<p><strong class="small-strong">Web Designer</strong></p>
+								<p><strong>Amazon Inc.</strong></p>
+								<p>New York City, NY, USA</p>
+								<p class="hidden-md hidden-lg"><strong>8 days ago</strong></p>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 job-location">
+								<p class="hidden-xs"><strong class="small-strong">Job Description</strong></p>
+								<p>This person is has excellent communication skills and is experienced with PHP, Javascript, MySQL,and jQuery. We are looking for a programmer proficient in PHP,... </p>
+
+								<p class="hidden-md hidden-lg"><button type="button" class="btn btn-primary">APPLY</button></p>
+							</div>
+						</a>
+						<div class="col-lg-2 col-md-2 job-type text-center hidden-sm hidden-xs">
+							<p class="job-salary"><strong>8 days ago</strong></p>
+							<p class="badge full-time">Full time</p>
+							<button type="button" class="btn btn-primary">APPLY</button>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-4" id="sidebar">
 					<div class="sidebar-widget">
@@ -245,41 +224,6 @@
 											</div>
 										</div>
 										<div class="col-xs-6">
-											<h5>Presence</h5>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"> All Types
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"> Remote
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"> Office
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"> Relocation
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"> Travel a lot
-												</label>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-xs-12">
-											<hr>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-xs-6">
 											<h5>Job Type</h5>
 											<div class="checkbox">
 												<label>
@@ -312,38 +256,24 @@
 												</label>
 											</div>
 										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-12">
+											<hr>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-xs-12">
+											<h5>Distance</h5>
+										</div>
+									</div>
+									<div class="row">
 										<div class="col-xs-6">
-											<h5>Location</h5>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"> All Types
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"> New York
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"> Los Angeles
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"> San Francisco
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"> Chicago
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox"> Boston
-												</label>
-											</div>
+											<p>More than <b><span id="distance-field">3</span></b> KM</p>
+										</div>
+										<div class="col-xs-6">
+											<div id="distance"></div>
 										</div>
 									</div>
 									<div class="row">
@@ -353,27 +283,9 @@
 									</div>
 									<div class="row">
 										<div class="col-xs-12">
-											<h5>Experience</h5>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-xs-6">
-											<p>More than <b><span id="years-field">3</span></b> years</p>
-										</div>
-										<div class="col-xs-6">
-											<div id="years"></div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-xs-12">
-											<hr>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-xs-12">
-											<h5>Salary</h5>
-											<div id="salary"></div>
-											<p>From <b><span id="salary-field-lower">$38.000</span></b> to  <b><span id="salary-field-upper">$78.000</span></b></p>
+											<h5>Post Date</h5>
+											<div id="date"></div>
+											<p>Less than <b><span id="date-range">5</span></b> Days</p>
 										</div>
 									</div>
 									<div class="row">

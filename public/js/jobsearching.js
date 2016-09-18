@@ -4,7 +4,7 @@
 */
 
 
-var rangeSlider = document.getElementById('years');
+var rangeSlider = document.getElementById('distance');
 
 noUiSlider.create(rangeSlider, {
 	start: [ 0 ],
@@ -16,7 +16,7 @@ noUiSlider.create(rangeSlider, {
 	}
 });
 
-var rangeSliderValueElement = document.getElementById('years-field');
+var rangeSliderValueElement = document.getElementById('distance-field');
 
 rangeSlider.noUiSlider.on('update', function( values, handle ) {
 	rangeSliderValueElement.innerHTML = parseInt(values[handle]);
@@ -24,25 +24,22 @@ rangeSlider.noUiSlider.on('update', function( values, handle ) {
 
 
 
-var handleSlider = document.getElementById('salary');
+var handleSlider = document.getElementById('date');
 
 noUiSlider.create(handleSlider, {
-	start: [0,1000],
-	step:100,
-	connect: true,
+	start: [1],
+	step:1,
+	connect: "lower",
 	range: {
 		'min': [ 0 ],
-		'max': [ 20000 ]
+		'max': [ 30 ]
 	}
 });
 
-var handleValues = [
-	document.getElementById('salary-field-lower'),
-	document.getElementById('salary-field-upper')
-];
+var handleValues = document.getElementById('date-range');
 
 handleSlider.noUiSlider.on('update', function( values, handle ) {
-	handleValues[handle].innerHTML = parseInt(values[handle]);
+	handleValues.innerHTML = parseInt(values[handle]);
 });
 
 
